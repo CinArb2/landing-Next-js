@@ -14,9 +14,9 @@ const index = () => {
         <div className={styles.businessInfo}>
           <div className={styles.containerLogo}>
             <Image
-                src="/static/logo.png"
-                layout="fill"
-                objectFit="cover"
+              src="/static/logo.png"
+              layout="fill"
+              objectFit="cover"
               priority
               alt="logo"
               />
