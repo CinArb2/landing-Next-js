@@ -4,7 +4,6 @@ import styles from './Video.module.css'
 const index = () => {
   return (
     <>
-      <div className={styles.backdrop}></div>
       <div className={styles.containerVideo}>
         <video
             autoPlay

@@ -21,7 +21,7 @@ const index = ({props}) => {
         <h3>{props.title}</h3>
         {
           props.infoList.map(item => (
-            <p key={item.id}>{item.info}</p>
+            <p key={item.id} className={styles.lisText}>{item.info}</p>
           ))
         }
       </div>

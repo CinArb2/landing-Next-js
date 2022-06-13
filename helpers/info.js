@@ -18,6 +18,10 @@ const infoProduct = [
         id: 98,
         info: 'Desparasitantes'
       },
+      {
+        id: 95,
+        info: 'Multivitamínicos'
+      },
     ]
   },
   {
@@ -32,11 +36,11 @@ const infoProduct = [
       },
       {
         id: 96,
-        info: 'Suplementacion bovinos'
+        info: 'Concentrado bovinos y equinos'
       },
       {
-        id: 95,
-        info: 'Suplementación equinos'
+        id: 101,
+        info: 'Concentrado porcinos, aves y peces'
       },
     ]
   },
@@ -77,6 +81,10 @@ const infoProduct = [
       {
         id: 89,
         info: 'Cuerdas de todo tipo'
+      },
+      {
+        id: 102,
+        info: 'Botas, Guantes'
       },
     ]
   },

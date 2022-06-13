@@ -12,7 +12,9 @@
 .servicesBody{
   max-width: 1550px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 .servicesBody a{
@@ -23,7 +25,6 @@
   color: var(--dark-green);
   font-size: clamp(2.2rem, 6vw, 3rem);
   padding-bottom: 2rem;
-  text-align: center;
   padding-bottom: 0;
   position: relative;
   z-index: 1;
@@ -36,6 +37,7 @@
   padding-top: 2rem;
   position: relative;
   z-index: 2;
+  padding-right: 1rem;
 }
 
 .paper{
@@ -82,6 +84,8 @@
   margin: 0 auto;
   z-index: 3;
   color: rgb(113, 111, 111);
+  padding-left: 3rem;
+  place-self: center;
 }
 
 .containerText p{
@@ -89,10 +93,28 @@
   padding-bottom: 1rem;
 }
 
+
+@media screen and (max-width: 1136px){
+  .servicesBody{
+    display: block;
+  }
+
+  .containerText{
+    text-align: center;
+    padding-left: unset;
+    padding-bottom: 2rem;
+  }
+
+  .listServices{
+    padding-right: unset;
+  }
+}
+
 @media screen and (max-width: 600px){
   .sectionServices{
-  padding-top: 5rem;
+    padding-top: 5rem;
   }  
+
   .listServices{
     display: block;
   }

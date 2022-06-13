@@ -15,16 +15,16 @@ const index = () => {
           <p>
             Tenemos a disposicion profesionales encargados de brindarte la mejor asesoria y el mejor servicio.
           </p>
+          <Button green>Agenda tu cita</Button>
         </div>
         <div className={styles.listServices}>
           <CardServices icon={"serviceVet"}>
             Constultorías Veterinarias
           </CardServices>
           <CardServices icon={"serviceAgr"}>
-            Constultorías Agropecuaria
+            Constultorías Agropecuarias
           </CardServices>
         </div>
-        <Button green>Agenda tu cita</Button>
       </div>
     </section>
   )

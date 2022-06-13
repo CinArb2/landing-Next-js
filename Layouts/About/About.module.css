@@ -6,11 +6,12 @@
 
 .paper{
   position: absolute;
-  top: -20px;
-  transform: rotate(180deg);
-  left: 0;
-  right: 0;
-  width: 100%;
+    top: -14px;
+    transform: rotate(180deg);
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 3;
 }
 
 .paper img{
