@@ -13,7 +13,7 @@ const index = () => {
   return (
     <section className={styles.containerHero}>
       <div className={styles.heroBody}>
-        <h1 className={styles.heroTitle}>Bienvenidos a Agrointegral Vg </h1>
+        <h1 className={styles.heroTitle}>Bienvenidos a Agrointegral VG </h1>
         <p className={styles.heroText}>Soluciones agropecuarias y veterinarias a tu alcance y mucho más!</p>
         <Button orange>Contactanos</Button>
       </div>

@@ -32,7 +32,7 @@ const index = () => {
         </div>
         <div className={styles.aboutTextContainer}>
           <h2 className={styles.aboutHeading}>Sobre nosotros</h2>
-          <p >Somos una empresa que tiene como función la comercialización de servicios y productos agrícolas, pecuarios y veterinarios, encaminados a satisfacer las necesidades de nuestros clientes, con asistencia permanente y precios justos, garantizando el crecimiento sostenible de las producciones y del cuidado animal </p>
+          <p >Somos una empresa que tiene como función la comercialización de servicios y productos agrícolas, pecuarios y veterinarios, encaminados a satisfacer las necesidades de nuestros clientes, con asistencia permanente,  precios justos, garantizando el crecimiento sostenible de las producciones y del cuidado animal </p>
           <div className={styles.containerList}>
             <div className={styles.listItem}>
               <BsFillCheckCircleFill  className={styles.icon}/>
