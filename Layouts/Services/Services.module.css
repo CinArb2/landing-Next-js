@@ -34,6 +34,8 @@
   gap: 3rem;
   justify-content: center;
   padding-top: 2rem;
+  position: relative;
+  z-index: 2;
 }
 
 .paper{
@@ -71,6 +73,7 @@
   background-color: var(--yellow);
   background-blend-mode: lighten;
   background-size: cover;
+  z-index: 1;
 }
 
 .containerText{

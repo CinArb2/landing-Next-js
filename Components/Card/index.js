@@ -12,6 +12,7 @@ const index = ({props}) => {
           objectFit="cover"
           priority
           alt="card image"
+          loading="lazy"
         />
       </div>
       <div className={styles.cardBody}>
