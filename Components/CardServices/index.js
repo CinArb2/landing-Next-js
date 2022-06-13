@@ -10,7 +10,6 @@ const index = ({children, icon}) => {
           src={`/static/${icon}.jpg`}
           layout="fill"
           objectFit="cover"
-          priority
           alt="card image"
           loading="lazy"
         />

@@ -10,7 +10,6 @@ const index = ({props}) => {
           src={props.image}
           layout="fill"
           objectFit="cover"
-          priority
           alt="card image"
           loading="lazy"
         />
