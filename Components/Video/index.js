@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Video.module.css'
 
-const Index = () => {
+const index = () => {
   return (
     <>
       <div className={styles.backdrop}></div>
@@ -20,4 +20,4 @@ const Index = () => {
   )
 }
 
-export default Index
+export default index

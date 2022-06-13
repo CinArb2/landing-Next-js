@@ -3,7 +3,7 @@ import styles from './Products.module.css'
 import { infoProduct } from '../../helpers/info'
 import { Card } from '../../Components'
 
-const Index = () => {
+const index = () => {
   return (
     <section className={styles.sectionProducts} id="productos">
       <div className={styles.overlayGray}></div>
@@ -27,4 +27,4 @@ const Index = () => {
   )
 }
 
-export default Index
+export default index

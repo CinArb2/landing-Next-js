@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Card.module.css'
 import Image from 'next/image'
 
-const Index = ({props}) => {
+const index = ({props}) => {
   return (
     <div className={styles.cardWrapper}>
       <div className={styles.containerImage}>
@@ -28,4 +28,4 @@ const Index = ({props}) => {
   )
 }
 
-export default Index
+export default index

@@ -3,7 +3,7 @@ import styles from './About.module.css'
 import Image from 'next/image'
 import { BsFillCheckCircleFill } from 'react-icons/bs';
 
-const Index = () => {
+const index = () => {
 
   return (
     <section className={styles.sectionAbout} id="about">
@@ -47,4 +47,4 @@ const Index = () => {
   )
 }
 
-export default Index
+export default index
