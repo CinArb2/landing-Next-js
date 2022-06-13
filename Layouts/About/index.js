@@ -18,6 +18,7 @@ const index = () => {
               layout="fill"
               objectFit="cover"
               priority
+              alt="perro en veterinaria"
             />
           </div>
           <div className={styles.containerImage}>
@@ -25,6 +26,7 @@ const index = () => {
               src="/static/cows.avif"
               layout="fill"
               objectFit="cover"
+              alt="vacas"
             />
           </div>
         </div>

@@ -11,6 +11,7 @@ const index = ({props}) => {
           layout="fill"
           objectFit="cover"
           priority
+          alt="card image"
         />
       </div>
       <div className={styles.cardBody}>

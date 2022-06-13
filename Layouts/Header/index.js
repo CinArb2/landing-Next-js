@@ -32,6 +32,7 @@ const index = () => {
                 src="/static/logo.png"
                 layout="fill"
                 objectFit="contain"
+                alt="logo"
               />
             </div>
           </Link>

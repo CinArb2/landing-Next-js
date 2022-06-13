@@ -11,6 +11,7 @@ const index = ({children, icon}) => {
           layout="fill"
           objectFit="cover"
           priority
+          alt="card image"
         />
       </div>
       <div className={styles.containerText}>
