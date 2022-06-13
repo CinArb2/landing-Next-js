@@ -1,0 +1,26 @@
+.floatingBtn{
+  background-color: var(--green-wsp);
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0.2rem 1rem;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 10;
+  transition: transform 300ms ease-in-out,
+    background-color 300ms ease-in-out
+  ;
+}
+
+.icon{
+  font-size: 3rem;
+  color: white;
+  padding-right: 1rem;
+}
+
+.floatingBtn:hover{
+  transform: scale(1.2);
+  background-color: var(--green-heading)
+}

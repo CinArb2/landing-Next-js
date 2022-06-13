@@ -1,0 +1,76 @@
+.sectionProducts{
+  position: relative;
+  display: grid;
+  place-content: center;
+  padding-top:  2rem;
+  padding-bottom: 2rem;
+}
+
+.overlayGray{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 57%;
+  background-color: var(--light-gray);
+  z-index: -1;
+  background-image: url('/static/farmBg.png');
+  background-blend-mode: soft-light;
+}
+
+.productsContainer{
+  max-width: 1550px;
+  margin: 0 auto;
+  padding-block: 6rem;
+  text-align: center;
+}
+
+.containerHeading{
+  max-width: 500px;
+  margin: 0 auto 3rem;
+}
+
+.productsHeading{
+  color: var(--green-heading);
+  font-size: clamp(2.2rem, 6vw, 3rem);
+  padding-bottom: 2rem;
+}
+
+.listProducts{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  justify-content: center;
+  padding-inline: 2rem;
+}
+
+.paper{
+  position: absolute;
+  top: -14px;
+  left: 0;
+  right: 0;
+}
+
+.paper img{
+  width: 100%;
+}
+
+@media screen and (max-width: 1050px){
+  .listProducts{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .productsContainer{
+    padding-block: 2rem;
+  }
+}
+
+@media screen and (max-width: 559px){
+  .listProducts{
+    display: block;
+  }
+
+  .containerHeading{
+    padding-inline: 2rem;
+  }
+}

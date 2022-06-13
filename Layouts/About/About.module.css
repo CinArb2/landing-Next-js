@@ -1,0 +1,139 @@
+.sectionAbout{
+  padding-top: 7rem;
+  padding-bottom: 10rem;
+  position: relative;
+}
+
+.paper{
+  position: absolute;
+  top: -20px;
+  transform: rotate(180deg);
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.paper img{
+  width: 100%;
+}
+
+.containerAbout{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1550px;
+  margin: 0 auto;
+  gap: 3rem;
+}
+
+.aboutTextContainer{
+  padding: 2rem;
+  align-self: center;
+}
+
+.aboutHeading{
+  color: var(--green-heading);
+  font-size: clamp(2.2rem, 6vw, 3rem);
+  padding-bottom: 2rem;
+}
+
+.galleryImages{
+  position: relative;
+}
+
+.containerImage{
+  position: relative;
+  top: -60px;
+  height: 400px;
+  width: 400px;
+  left: 15%;
+  border-radius: 52% 48% 75% 25% / 30% 46% 54% 70%  ;
+  overflow: hidden;
+}
+
+.containerImage:nth-child(2){
+  position: absolute;
+  top: 50%;
+  height: 300px;
+  width: 400px;
+  bottom: -50px;
+  left: unset;
+  right: 0;
+  border-radius: 77% 23% 63% 37% / 89% 46% 54% 11% ;
+} 
+
+
+.listItem:hover .icon{
+  color: var(--green);
+}
+
+@media screen and (max-width: 850px){
+
+  .containerImage{
+    width: 350px;
+  }
+
+  .containerImage:nth-child(2){
+    width: 300px;
+  }
+  .aboutHeading{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .sectionAbout{
+    padding-bottom: 4rem;
+  }
+
+  .containerAbout{
+    display: block;
+  }
+
+  .containerImage{
+    width: 60%;
+    height: 300px;
+  }
+
+  .containerImage:nth-child(2){
+    width: 200px;
+    top: 23%;
+    height: 244px;
+    width: 200px;
+    left: unset;
+    right: 10%;
+  }
+
+}
+
+.containerList{
+  padding-left: 1rem;
+  margin-top: 2rem;
+}
+
+.listItem{
+  display: flex;
+  padding-top: 1rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon{
+  font-size: 3rem;
+  color: var(--yellow);
+  transition: color 300ms ease-in-out;
+}
+
+.listItem p{
+  color: var(--green-heading);
+  font-family: var(--heading-font);
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 450px){
+  .containerAbout{
+    text-align: center;
+  }
+
+}

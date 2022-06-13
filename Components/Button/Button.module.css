@@ -1,0 +1,29 @@
+.button{
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  z-index: 2;
+  position: relative;
+  color: black;
+  letter-spacing: 2px;
+  display: inline-block;
+}
+
+.orange{
+  background-color: var(--yellow);
+  transition: background-color 300ms ease;
+}
+
+.green{
+  background-color: var(--green);
+  color: white;
+  transition: background-color 300ms ease;
+}
+
+.orange:hover{
+  background-color: var(--hover-yellow);
+}
+.green:hover{
+  background-color: var(--hover-green);
+}
