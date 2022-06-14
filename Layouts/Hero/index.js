@@ -3,6 +3,7 @@ import { Button, Video } from '../../Components'
 import styles from './Hero.module.css'
 import { useMediaQuery } from 'react-responsive'
 import Image from 'next/image'
+import { blurData } from '../../helpers/info'
 
 const index = () => {
 
@@ -24,11 +25,13 @@ const index = () => {
         isMobil ?
         <div className={styles.containerImage}>
           <Image
-            src="/static/heroPhone3.jpg"
+            src="/static/heroPhone1.avif"
             layout="fill"
             objectFit="cover"
             priority
             alt="hero"
+            blurDataURL={blurData}
+            placeholder="blur"
           />
         </div>
         :<Video />

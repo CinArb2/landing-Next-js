@@ -15,14 +15,14 @@
   bottom: 10px;
   right: 0;
   z-index: 1;
-  background: linear-gradient(to bottom, rgba(251, 251, 251, 0), rgb(51 49 24 / 59%));
+  background-color: #00000069;
 }
 
 .containerImage{
   position: absolute;
-  height: 145%;
+  height: 105%;
   width: 100%;
-  top: -10px;
+  top: -40px;
   overflow: hidden;
   z-index: -1;
 }
