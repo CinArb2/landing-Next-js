@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './CardServices.module.css'
 import Image from 'next/image'
+import { blurData } from '../../helpers/info.js'
 
 const index = ({children, icon}) => {
   return (
@@ -12,6 +13,8 @@ const index = ({children, icon}) => {
           objectFit="cover"
           alt="card image"
           loading="lazy"
+          blurDataURL={blurData}
+          placeholder="blur"
         />
       </div>
       <div className={styles.containerText}>

@@ -1,4 +1,6 @@
 
+const blurData = "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mPU1VWpBwACDAD/iTZiJwAAAABJRU5ErkJggg=="
+
 const infoProduct = [
   {
     id: 1,
@@ -90,4 +92,4 @@ const infoProduct = [
   },
 ]
 
-export { infoProduct }
+export { infoProduct, blurData }

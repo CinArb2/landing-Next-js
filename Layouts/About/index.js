@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './About.module.css'
 import Image from 'next/image'
 import { BsFillCheckCircleFill } from 'react-icons/bs';
-
+import { blurData } from '../../helpers/info.js'
 const index = () => {
 
   return (
@@ -19,6 +19,8 @@ const index = () => {
               objectFit="cover"
               priority
               alt="perro en veterinaria"
+              blurDataURL={blurData}
+              placeholder="blur"
             />
           </div>
           <div className={styles.containerImage}>
@@ -27,6 +29,8 @@ const index = () => {
               layout="fill"
               objectFit="cover"
               alt="vacas"
+              blurDataURL={blurData}
+              placeholder="blur"
             />
           </div>
         </div>
