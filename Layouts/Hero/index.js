@@ -6,23 +6,23 @@ import Image from 'next/image'
 import { blurData } from '../../helpers/info'
 
 const index = () => {
-
   const isMobil = useMediaQuery({
-    query: '(max-width: 650px)'
+    query: '(max-width: 650px)',
   })
-  
+
   return (
     <section className={styles.containerHero}>
       <div className={styles.heroBody}>
         <h1 className={styles.heroTitle}>Bienvenidos a Agrointegral VG </h1>
-        <p className={styles.heroText}>Soluciones agropecuarias y veterinarias a tu alcance y mucho más!</p>
+        <p className={styles.heroText}>
+          Soluciones agropecuarias y veterinarias a tu alcance y mucho más!
+        </p>
         <Button orange>Contactanos</Button>
       </div>
 
       {isMobil && <div className={styles.backdrop}></div>}
 
-      {
-        isMobil ?
+      {isMobil ? (
         <div className={styles.containerImage}>
           <Image
             src="/static/heroPhone1.avif"
@@ -34,9 +34,9 @@ const index = () => {
             placeholder="blur"
           />
         </div>
-        :<Video />
-      }
-      
+      ) : (
+        <Video />
+      )}
     </section>
   )
 }

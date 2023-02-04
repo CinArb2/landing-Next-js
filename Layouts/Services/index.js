@@ -13,15 +13,16 @@ const index = () => {
         <div className={styles.containerText}>
           <h2 className={styles.headingServices}>Nuestros Servicios</h2>
           <p>
-            Tenemos a disposicion profesionales encargados de brindarte la mejor asesoria y el mejor servicio.
+            Tenemos a disposicion profesionales encargados de brindarte la mejor
+            asesoria y el mejor servicio.
           </p>
           <Button green>Agenda tu cita</Button>
         </div>
         <div className={styles.listServices}>
-          <CardServices icon={"serviceVet"}>
+          <CardServices icon={'serviceVet'}>
             Constultorías Veterinarias
           </CardServices>
-          <CardServices icon={"serviceAgr"}>
+          <CardServices icon={'serviceAgr'}>
             Constultorías Agropecuarias
           </CardServices>
         </div>

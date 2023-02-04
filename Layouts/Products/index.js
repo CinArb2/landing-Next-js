@@ -13,14 +13,15 @@ const index = () => {
       <div className={styles.productsContainer}>
         <div className={styles.containerHeading}>
           <h2 className={styles.productsHeading}>Productos</h2>
-          <p>En Agrointegral VG encontraras variedad de productos para tus animales y el campo.</p>
+          <p>
+            En Agrointegral VG encontraras variedad de productos para tus
+            animales y el campo.
+          </p>
         </div>
         <div className={styles.listProducts}>
-          {
-            infoProduct.map(info => (
-              <Card key={info.id} props={info}/>
-            ))
-          }
+          {infoProduct.map((info) => (
+            <Card key={info.id} props={info} />
+          ))}
         </div>
       </div>
     </section>
