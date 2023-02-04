@@ -7,12 +7,20 @@ import {
   AiFillClockCircle,
   AiFillInstagram,
 } from 'react-icons/ai'
+import { blurData } from '../../helpers/info'
 
 const index = () => {
   return (
     <footer className={styles.footer} id="contactanos">
       <div className={styles.paper}>
-        <img src="/static/paperGray1.png" alt="papel decoracion" />
+        <Image
+          src="/static/paperGray1.png"
+          objectFit="cover"
+          alt="papel decoracion"
+          blurDataURL={blurData}
+          placeholder="blur"
+          layout="fill"
+        />
       </div>
       <div className={styles.container}>
         <div className={styles.businessInfo}>

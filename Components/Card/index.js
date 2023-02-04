@@ -19,7 +19,16 @@ const index = ({ props }) => {
       </div>
       <div className={styles.cardBody}>
         <div className={styles.containerIcon}>
-          <img src={props.icon} alt="icono productos" />
+          <Image
+            src={props.icon}
+            layout="fixed"
+            objectFit="cover"
+            alt="icono productos"
+            blurDataURL={blurData}
+            placeholder="blur"
+            height={'40px'}
+            width={'40px'}
+          />
         </div>
         <h3>{props.title}</h3>
         {props.infoList.map((item) => (

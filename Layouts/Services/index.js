@@ -1,12 +1,21 @@
 import React from 'react'
 import styles from './Services.module.css'
 import { Button, CardServices } from '../../Components'
+import Image from 'next/image'
+import { blurData } from '../../helpers/info'
 
 const index = () => {
   return (
     <section className={styles.sectionServices} id="servicios">
       <div className={styles.paper}>
-        <img src="/static/rippedPaper2.png" alt="decoracion" />
+        <Image
+          src="/static/rippedPaper2.png"
+          objectFit="cover"
+          alt="papel decoracion"
+          blurDataURL={blurData}
+          placeholder="blur"
+          layout="fill"
+        />
       </div>
       <div className={styles.decoration}></div>
       <div className={styles.servicesBody}>
