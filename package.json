@@ -8,9 +8,6 @@
     "start": "next start",
     "lint": "next lint"
   },
-   "husky": {
-    "hooks": {}
-   },
   "dependencies": {
     "classnames": "^2.3.1",
     "husky": "^8.0.3",
