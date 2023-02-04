@@ -1,14 +1,22 @@
 import React from 'react'
 import styles from './Products.module.css'
-import { infoProduct } from '../../helpers/info'
+import { blurData, infoProduct } from '../../helpers/info'
 import { Card } from '../../Components'
+import Image from 'next/image'
 
 const index = () => {
   return (
     <section className={styles.sectionProducts} id="productos">
       <div className={styles.overlayGray}></div>
       <div className={styles.paper}>
-        <img src="/static/paperGray1.png" alt="papel decoracion" />
+        <Image
+          src="/static/paperGray1.png"
+          objectFit="cover"
+          alt="papel decoracion"
+          blurDataURL={blurData}
+          placeholder="blur"
+          layout="fill"
+        />
       </div>
       <div className={styles.productsContainer}>
         <div className={styles.containerHeading}>

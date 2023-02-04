@@ -7,7 +7,14 @@ const index = () => {
   return (
     <section className={styles.sectionAbout} id="about">
       <div className={styles.paper}>
-        <img src="/static/rippedPaper2.png" alt="papel decoracion" />
+        <Image
+          src="/static/rippedPaper2.png"
+          objectFit="cover"
+          alt="papel decoracion"
+          blurDataURL={blurData}
+          placeholder="blur"
+          layout="fill"
+        />
       </div>
       <article className={styles.containerAbout}>
         <div className={styles.galleryImages}>
