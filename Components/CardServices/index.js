@@ -3,7 +3,7 @@ import styles from './CardServices.module.css'
 import Image from 'next/image'
 import { blurData } from '../../helpers/info.js'
 
-const index = ({children, icon}) => {
+const index = ({ children, icon }) => {
   return (
     <div className={styles.container}>
       <div className={styles.containerIcon}>

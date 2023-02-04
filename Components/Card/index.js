@@ -3,7 +3,7 @@ import styles from './Card.module.css'
 import Image from 'next/image'
 import { blurData } from '../../helpers/info.js'
 
-const index = ({props}) => {
+const index = ({ props }) => {
   return (
     <div className={styles.cardWrapper}>
       <div className={styles.containerImage}>
@@ -22,11 +22,11 @@ const index = ({props}) => {
           <img src={props.icon} alt="icono productos" />
         </div>
         <h3>{props.title}</h3>
-        {
-          props.infoList.map(item => (
-            <p key={item.id} className={styles.lisText}>{item.info}</p>
-          ))
-        }
+        {props.infoList.map((item) => (
+          <p key={item.id} className={styles.lisText}>
+            {item.info}
+          </p>
+        ))}
       </div>
     </div>
   )
