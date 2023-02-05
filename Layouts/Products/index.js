@@ -3,6 +3,7 @@ import styles from './Products.module.css'
 import { blurData, infoProduct } from '../../helpers/info'
 import { Card } from '../../Components'
 import Image from 'next/image'
+import paperGray from '../../public/static/paperGray1.png'
 
 const index = () => {
   return (
@@ -10,7 +11,7 @@ const index = () => {
       <div className={styles.overlayGray}></div>
       <div className={styles.paper}>
         <Image
-          src="/static/paperGray1.png"
+          src={paperGray}
           objectFit="cover"
           alt="papel decoracion"
           blurDataURL={blurData}

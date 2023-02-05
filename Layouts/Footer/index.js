@@ -8,13 +8,15 @@ import {
   AiFillInstagram,
 } from 'react-icons/ai'
 import { blurData } from '../../helpers/info'
+import logo from '../../public/static/logo-200.png'
+import paperGray from '../../public/static/paperGray1.png'
 
 const index = () => {
   return (
     <footer className={styles.footer} id="contactanos">
       <div className={styles.paper}>
         <Image
-          src="/static/paperGray1.png"
+          src={paperGray}
           objectFit="cover"
           alt="papel decoracion"
           blurDataURL={blurData}
@@ -26,7 +28,7 @@ const index = () => {
         <div className={styles.businessInfo}>
           <div className={styles.containerLogo}>
             <Image
-              src="/static/logo.png"
+              src={logo}
               layout="fill"
               objectFit="cover"
               priority

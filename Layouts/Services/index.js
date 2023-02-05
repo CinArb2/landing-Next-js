@@ -3,13 +3,14 @@ import styles from './Services.module.css'
 import { Button, CardServices } from '../../Components'
 import Image from 'next/image'
 import { blurData } from '../../helpers/info'
+import rippedPaper from '../../public/static/rippedPaper2.png'
 
 const index = () => {
   return (
     <section className={styles.sectionServices} id="servicios">
       <div className={styles.paper}>
         <Image
-          src="/static/rippedPaper2.png"
+          src={rippedPaper}
           objectFit="cover"
           alt="papel decoracion"
           blurDataURL={blurData}
