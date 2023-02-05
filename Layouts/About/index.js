@@ -3,12 +3,16 @@ import styles from './About.module.css'
 import Image from 'next/image'
 import { BsFillCheckCircleFill } from 'react-icons/bs'
 import { blurData } from '../../helpers/info.js'
+import rippedPaper from '../../public/static/rippedPaper2.png'
+import veterinarian from '../../public/static/veterinarian.avif'
+import cows from '../../public/static/cows.avif'
+
 const index = () => {
   return (
     <section className={styles.sectionAbout} id="about">
       <div className={styles.paper}>
         <Image
-          src="/static/rippedPaper2.png"
+          src={rippedPaper}
           objectFit="cover"
           alt="papel decoracion"
           blurDataURL={blurData}
@@ -20,7 +24,7 @@ const index = () => {
         <div className={styles.galleryImages}>
           <div className={styles.containerImage}>
             <Image
-              src="/static/veterinarian.avif"
+              src={veterinarian}
               layout="fill"
               objectFit="cover"
               priority
@@ -31,7 +35,7 @@ const index = () => {
           </div>
           <div className={styles.containerImage}>
             <Image
-              src="/static/cows.avif"
+              src={cows}
               layout="fill"
               objectFit="cover"
               alt="vacas"

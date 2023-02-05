@@ -4,6 +4,7 @@ import styles from './Hero.module.css'
 import { useMediaQuery } from 'react-responsive'
 import Image from 'next/image'
 import { blurData } from '../../helpers/info'
+import heroPhone from '../../public/static/heroPhone1.avif'
 
 const index = () => {
   const isMobil = useMediaQuery({
@@ -25,7 +26,7 @@ const index = () => {
       {isMobil ? (
         <div className={styles.containerImage}>
           <Image
-            src="/static/heroPhone1.avif"
+            src={heroPhone}
             layout="fill"
             objectFit="cover"
             priority
