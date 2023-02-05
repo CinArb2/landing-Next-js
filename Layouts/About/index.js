@@ -1,20 +1,30 @@
 import React from 'react'
 import styles from './About.module.css'
 import Image from 'next/image'
-import { BsFillCheckCircleFill } from 'react-icons/bs';
+import { BsFillCheckCircleFill } from 'react-icons/bs'
 import { blurData } from '../../helpers/info.js'
-const index = () => {
+import rippedPaper from '../../public/static/rippedPaper2.png'
+import veterinarian from '../../public/static/veterinarian.avif'
+import cows from '../../public/static/cows.avif'
 
+const index = () => {
   return (
     <section className={styles.sectionAbout} id="about">
       <div className={styles.paper}>
-        <img src="/static/rippedPaper2.png" alt="papel decoracion" />
+        <Image
+          src={rippedPaper}
+          objectFit="cover"
+          alt="papel decoracion"
+          blurDataURL={blurData}
+          placeholder="blur"
+          layout="fill"
+        />
       </div>
       <article className={styles.containerAbout}>
         <div className={styles.galleryImages}>
           <div className={styles.containerImage}>
             <Image
-              src="/static/veterinarian.avif"
+              src={veterinarian}
               layout="fill"
               objectFit="cover"
               priority
@@ -25,7 +35,7 @@ const index = () => {
           </div>
           <div className={styles.containerImage}>
             <Image
-              src="/static/cows.avif"
+              src={cows}
               layout="fill"
               objectFit="cover"
               alt="vacas"
@@ -36,14 +46,20 @@ const index = () => {
         </div>
         <div className={styles.aboutTextContainer}>
           <h2 className={styles.aboutHeading}>Sobre nosotros</h2>
-          <p >Somos una empresa que tiene como función la comercialización de servicios y productos agrícolas, pecuarios y veterinarios, encaminados a satisfacer las necesidades de nuestros clientes, con asistencia permanente,  precios justos, garantizando el crecimiento sostenible de las producciones y del cuidado animal </p>
+          <p>
+            Somos una empresa que tiene como función la comercialización de
+            servicios y productos agrícolas, pecuarios y veterinarios,
+            encaminados a satisfacer las necesidades de nuestros clientes, con
+            asistencia permanente, precios justos, garantizando el crecimiento
+            sostenible de las producciones y del cuidado animal{' '}
+          </p>
           <div className={styles.containerList}>
             <div className={styles.listItem}>
-              <BsFillCheckCircleFill  className={styles.icon}/>
+              <BsFillCheckCircleFill className={styles.icon} />
               <p>Excelente servicio</p>
             </div>
             <div className={styles.listItem}>
-              <BsFillCheckCircleFill className={styles.icon}/>
+              <BsFillCheckCircleFill className={styles.icon} />
               <p>Precios justos</p>
             </div>
           </div>

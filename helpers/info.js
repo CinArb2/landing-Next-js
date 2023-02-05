@@ -1,5 +1,5 @@
-
-const blurData = "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mPU1VWpBwACDAD/iTZiJwAAAABJRU5ErkJggg=="
+const blurData =
+  'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mPU1VWpBwACDAD/iTZiJwAAAABJRU5ErkJggg=='
 
 const infoProduct = [
   {
@@ -10,21 +10,21 @@ const infoProduct = [
     infoList: [
       {
         id: 100,
-        info: 'Medicamentos mascotas'
+        info: 'Medicamentos mascotas',
       },
       {
         id: 99,
-        info: 'Medicamentos grandes animales'
+        info: 'Medicamentos grandes animales',
       },
       {
         id: 98,
-        info: 'Desparasitantes'
+        info: 'Desparasitantes',
       },
       {
         id: 95,
-        info: 'Multivitamínicos'
+        info: 'Multivitamínicos',
       },
-    ]
+    ],
   },
   {
     id: 2,
@@ -34,17 +34,17 @@ const infoProduct = [
     infoList: [
       {
         id: 97,
-        info: 'Concentrado mascotas'
+        info: 'Concentrado mascotas',
       },
       {
         id: 96,
-        info: 'Concentrado bovinos y equinos'
+        info: 'Concentrado bovinos y equinos',
       },
       {
         id: 101,
-        info: 'Concentrado porcinos, aves y peces'
+        info: 'Concentrado porcinos, aves y peces',
       },
-    ]
+    ],
   },
   {
     id: 3,
@@ -54,17 +54,17 @@ const infoProduct = [
     infoList: [
       {
         id: 94,
-        info: 'Insecticidas'
+        info: 'Insecticidas',
       },
       {
         id: 93,
-        info: 'Antisépticos y larvicidas'
+        info: 'Antisépticos y larvicidas',
       },
       {
         id: 92,
-        info: 'Herbicidas'
+        info: 'Herbicidas',
       },
-    ]
+    ],
   },
   {
     id: 4,
@@ -74,21 +74,21 @@ const infoProduct = [
     infoList: [
       {
         id: 91,
-        info: 'Herramientas Agricolas'
+        info: 'Herramientas Agricolas',
       },
       {
         id: 90,
-        info: 'Alambres de púa'
+        info: 'Alambres de púa',
       },
       {
         id: 89,
-        info: 'Cuerdas de todo tipo'
+        info: 'Cuerdas de todo tipo',
       },
       {
         id: 102,
-        info: 'Botas, Guantes'
+        info: 'Botas, Guantes',
       },
-    ]
+    ],
   },
 ]
 
