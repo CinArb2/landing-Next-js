@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { HiOutlineMenu } from 'react-icons/hi'
 import { AiOutlineClose } from 'react-icons/ai'
+import logo from '../../public/static/logo-100.png'
 
 const index = () => {
   const router = useRouter()
@@ -28,12 +29,7 @@ const index = () => {
         <div className={styles.containerHeader}>
           <Link href="/">
             <div className={styles.logoContainer}>
-              <Image
-                src="/static/logo.png"
-                layout="fill"
-                objectFit="contain"
-                alt="logo"
-              />
+              <Image src={logo} layout="fill" objectFit="contain" alt="logo" />
             </div>
           </Link>
           <div className={styles.menu} onClick={handleClick}>
