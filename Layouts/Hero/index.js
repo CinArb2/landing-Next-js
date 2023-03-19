@@ -4,7 +4,7 @@ import styles from './Hero.module.css'
 import { useMediaQuery } from 'react-responsive'
 import Image from 'next/image'
 import { blurData } from '../../helpers/info'
-import heroPhone from '../../public/static/heroPhone1.avif'
+import heroPhone from '../../public/static/heroPhone1.webp'
 
 const index = () => {
   const isMobil = useMediaQuery({
