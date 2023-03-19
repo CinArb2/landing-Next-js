@@ -4,8 +4,8 @@ import Image from 'next/image'
 import { BsFillCheckCircleFill } from 'react-icons/bs'
 import { blurData } from '../../helpers/info.js'
 import rippedPaper from '../../public/static/rippedPaper2.png'
-import veterinarian from '../../public/static/veterinarian.avif'
-import cows from '../../public/static/cows.avif'
+import veterinarian from '../../public/static/veterinarian.webp'
+import cows from '../../public/static/cows.webp'
 
 const index = () => {
   return (
