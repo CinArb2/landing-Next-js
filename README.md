@@ -1,4 +1,4 @@
-# AgrointegralVg Website
+# Agrointegralvg Website
 
 This is the readme file for the AgrointegralVg website. The website is built using Next.js and React, and uses several additional libraries to provide functionality such as responsive design, SEO, and image processing.
 
