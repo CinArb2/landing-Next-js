@@ -37,12 +37,12 @@ npm test
 
 If you'd like to contribute to the website, please follow these steps:
 
-Fork the repository and clone it to your local machine.
-Create a new branch for your changes.
-Make your changes and commit them to your branch.
-Push your branch to your forked repository.
-Open a pull request to the main repository with your changes.
-Please make sure to follow the project's coding conventions, and to include tests for any new functionality you add.
+* Fork the repository and clone it to your local machine.
+* Create a new branch for your changes.
+* Make your changes and commit them to your branch.
+* Push your branch to your forked repository.
+* Open a pull request to the main repository with your changes.
+* Please make sure to follow the project's coding conventions, and to include tests for any new functionality you add.
 
 # License
 The AgrointegralVg website is licensed under the MIT License.
