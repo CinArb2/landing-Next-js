@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AgrointegralVg Website
 
-## Getting Started
+This is the readme file for the AgrointegralVg website. The website is built using Next.js and React, and uses several additional libraries to provide functionality such as responsive design, SEO, and image processing.
 
-First, run the development server:
+# Features
 
-```bash
+* <img class="emoji" alt="iphone" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4f1.png"> Responsive design
+* <img class="emoji" alt="fire" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png"> Next.js for Static Site Generator
+* <img class="emoji" alt="card_index_dividers" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/1f5c2.png"> VSCode configuration: ESLint, Prettier,
+* <img class="emoji" alt="robot" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/1f916.png"> SEO metadata and Graph tags with Next SEO
+* <img class="emoji" alt="computer_mouse" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/1f5b1.png"> One click deployment with Vercel
+
+# Running the Website
+To run the website, you can use the following commands:
+
+```
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
+
+# Build the production version
+npm run build
+
+# Start the production server
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+You can also run tests using the following command:
+```
+# Run tests
+npm test
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+# Contributing
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+If you'd like to contribute to the website, please follow these steps:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Fork the repository and clone it to your local machine.
+Create a new branch for your changes.
+Make your changes and commit them to your branch.
+Push your branch to your forked repository.
+Open a pull request to the main repository with your changes.
+Please make sure to follow the project's coding conventions, and to include tests for any new functionality you add.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# License
+The AgrointegralVg website is licensed under the MIT License.
